@@ -1,0 +1,5 @@
+# 运行时零依赖：仅使用 Python 标准库（tkinter / heapq / json / sqlite3 等）。
+# 本文件留空是刻意的，方便 `pip install -r requirements.txt` 不报错。
+#
+# 如需开发环境（测试 / 代码检查）：
+#   pip install -r requirements-dev.txt

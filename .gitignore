@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 测试与检查 ----
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- 编辑器 / 操作系统 ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- 程序运行时产物 ----
+# 用户保存的地图与导出结果
+maps/*.json
+!maps/.gitkeep
+output/
+*.db
+
+# ---- 本地配置与工具目录 ----
+.workbuddy/
+# 仓库重建时的历史备份目录，绝不能进版本库
+.git.bak*/
+.git_old*/
+.git-backup*/
+.env
+*.local
